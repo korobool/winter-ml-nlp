@@ -17,7 +17,7 @@ Students can use native system or virtualboxed one. It is likely that experience
 * Being familiar with virtualenv, virtualenvwrapper, Jupyter notebook would help.
 
 ## Materials
-### Classic Machine Learning with distinctive and пenerative models in ML
+### Classic Machine Learning with distinctive and generative models in ML
 
 ### Features and Features extraction
 
