@@ -17,11 +17,13 @@ Students can use native system or virtualboxed one. It is likely that experience
 * Being familiar with virtualenv, virtualenvwrapper, Jupyter notebook would help.
 
 ## Practice 
-### Classic Machine Learning with distinctive and generative models in ML
+#### Classic Machine Learning with distinctive and generative models in ML
+* Naive Bayes Classifier
+* Support Vector Machine
 
-### Features and Features extraction
+#### Features and Features extraction
 
-### Neural Networks in modern NLP
+#### Neural Networks in modern NLP
 
 ## Additional materials
 * Character-level Convolutional Networks for Text Classification; Xiang Zhang, Junbo Zhao, Yann LeCun; Courant Institute of Mathematical Sciences, New York University 719 Broadway, 12th Floor, New York, NY 10003
