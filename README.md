@@ -16,9 +16,13 @@ Students can use native system or virtualboxed one. It is likely that experience
 * Some experience in ML/NLP would be a plus.
 * Being familiar with virtualenv, virtualenvwrapper, Jupyter notebook would help.
 
-## Materials
+## Practice 
 ### Classic Machine Learning with distinctive and generative models in ML
 
 ### Features and Features extraction
 
 ### Neural Networks in modern NLP
+
+## Additional materials
+* Character-level Convolutional Networks for Text Classification; Xiang Zhang, Junbo Zhao, Yann LeCun; Courant Institute of Mathematical Sciences, New York University 719 Broadway, 12th Floor, New York, NY 10003
+* Deep Learning An MIT Press book http://www.deeplearningbook.org/
