@@ -1,0 +1,22 @@
+This repo contains learning materials related to Machine Learning application in Natural Language processing
+http://cs.ucu.edu.ua/en/course/textual-data-in-machine-learning-building-predictive-models-in-practice/
+
+## Course Description
+This course covers the essential steps for building a classical SVM text classifier, neural network based classifier (CNN), and some techniques for RNN in text generation. The first session is about data preprocessing and a linguistic part. The second is dedicated to the theory and practice of building classic textual classifiers. And finally in the third session, we’ll discover opportunities and challenges given by cutting edge neural networks research.
+
+## Course tools
+Python3.5, virtualenv, virtualenvwrapper Jupyter notebook Scikit-learn (and satellite things like NLTK, scipy, numpy etc.) Theano/Tensorflow (optionally), Code and setup instructions provided by author are compatible with Ubuntu 15.06.
+
+Students can use native system or virtualboxed one. It is likely that experienced MacOS user would be able to setup things there easily, but this is out of materials and course scope.
+
+## Prerequisites
+* Ablility to read/write simple python code.
+* Some experience in ML/NLP would be a plus.
+* Being familiar with virtualenv, virtualenvwrapper, Jupyter notebook would help.
+
+# Materials
+## Classic Machine Learning with distinctive and enerative models in ML
+
+## Features and Features extraction
+
+## Neural Networks in modern NLP
