@@ -16,7 +16,7 @@ scipy==0.18.1
 six==1.10.0
 Theano==0.8.2
 ```
-Also you need manually install tensorflow:
+Also you need to manually install tensorflow:
 ```
 pip install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-0.12.1-cp35-cp35m-linux_x86_64.whl
 ```
