@@ -1,1 +1,1 @@
-# Convolutional Neural Networks Application For Textua Data
+# Convolutional Neural Networks Application For Textual Data
