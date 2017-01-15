@@ -17,6 +17,8 @@ Students can use native system or virtualboxed one. It is likely that experience
 * Being familiar with virtualenv, virtualenvwrapper, Jupyter notebook would help.
 
 ## Practice 
+#### Part 0 Data. Corpora. Corpus.
+
 #### Part 1 Linguistic features, Features extraction, Vectorization
 
 #### Part 2 Classic Machine Learning with distinctive and generative models in ML
