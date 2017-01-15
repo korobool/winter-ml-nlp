@@ -23,7 +23,7 @@ Students can use native system or virtualboxed one. It is likely that experience
 
 https://github.com/korobool/winter-ml-nlp/tree/master/svm-classifier
 
-#### Features and Features extraction
+#### Vectorization
 
 #### Neural Networks in modern NLP
 
