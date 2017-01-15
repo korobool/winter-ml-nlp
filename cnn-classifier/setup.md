@@ -9,7 +9,6 @@ PyYAML==3.12
 scikit-learn==0.18.1
 scipy==0.18.1
 six==1.10.0
-tensorflow-gpu==0.12.1 // это не ставить, команда для установки ниже
 Theano==0.8.2
 ```
 Also you need:
