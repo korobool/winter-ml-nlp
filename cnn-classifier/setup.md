@@ -1,5 +1,10 @@
 # Make Keras to work with TensorFlow
-see requirements.txt
+Install everything from requirements.txt
+```
+workon nlp-gpu
+pip install cnn-classifier/prima/requirements.txt
+```
+Its body:
 ```
 h5py==2.6.0
 Keras==1.2.0
@@ -11,7 +16,7 @@ scipy==0.18.1
 six==1.10.0
 Theano==0.8.2
 ```
-Also you need:
+Also you need manually install tensorflow:
 ```
 pip install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-0.12.1-cp35-cp35m-linux_x86_64.whl
 ```
