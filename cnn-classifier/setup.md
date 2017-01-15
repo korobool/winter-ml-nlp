@@ -1,4 +1,4 @@
-# New Requirements for tensorflow
+# Make Keras to work with TensorFlow
 see requirements.txt
 ```
 h5py==2.6.0
