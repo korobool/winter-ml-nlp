@@ -27,7 +27,7 @@ Students can use native system or virtualboxed one. It is likely that experience
 
 https://github.com/korobool/winter-ml-nlp/tree/master/svm-classifier
 
-#### Neural Networks in modern NLP
+#### Part 3 Neural Networks in modern NLP
 
 https://github.com/korobool/winter-ml-nlp/blob/master/cnn-classifier
 
