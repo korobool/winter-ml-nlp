@@ -17,13 +17,13 @@ Students can use native system or virtualboxed one. It is likely that experience
 * Being familiar with virtualenv, virtualenvwrapper, Jupyter notebook would help.
 
 ## Practice 
-#### Classic Machine Learning with distinctive and generative models in ML
+#### Part 1 Linguistic features, Features extraction, Vectorization
+
+#### Part 2 Classic Machine Learning with distinctive and generative models in ML
 * Naive Bayes Classifier
 * Support Vector Machine
 
 https://github.com/korobool/winter-ml-nlp/tree/master/svm-classifier
-
-#### Vectorization
 
 #### Neural Networks in modern NLP
 
