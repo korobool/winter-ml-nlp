@@ -16,7 +16,7 @@ Students can use native system or virtualboxed one. It is likely that experience
 * Some experience in ML/NLP would be a plus.
 * Being familiar with virtualenv, virtualenvwrapper, Jupyter notebook would help.
 
-## Practice 
+## Syllabus 
 #### Part 0 Data. Corpora. Corpus.
 
 #### Part 1 Linguistic features, Features extraction, Vectorization
