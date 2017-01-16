@@ -16,7 +16,7 @@ Students can use native system or virtualboxed one. It is likely that experience
 * Some experience in ML/NLP would be a plus.
 * Being familiar with virtualenv, virtualenvwrapper, Jupyter notebook would help.
 
-## Practice 
+## Syllabus 
 #### Part 0 Data. Corpora. Corpus.
 
 #### Part 1 Linguistic features, Features extraction, Vectorization
@@ -27,7 +27,7 @@ Students can use native system or virtualboxed one. It is likely that experience
 
 https://github.com/korobool/winter-ml-nlp/tree/master/svm-classifier
 
-#### Neural Networks in modern NLP
+#### Part 3 Neural Networks in modern NLP
 
 https://github.com/korobool/winter-ml-nlp/blob/master/cnn-classifier
 
