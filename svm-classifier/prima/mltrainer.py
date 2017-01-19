@@ -26,10 +26,10 @@ from sklearn.metrics import confusion_matrix
 from sklearn.naive_bayes import MultinomialNB
 from pathlib import Path
 from matplotlib import cm
-from keras.models import Sequential
-from keras.layers.core import Dense, Dropout, Activation
-from keras.optimizers import RMSprop
-from keras.models import model_from_json
+# from keras.models import Sequential
+# from keras.layers.core import Dense, Dropout, Activation
+# from keras.optimizers import RMSprop
+# from keras.models import model_from_json
 
 
 class ModelNotTrainedError(Exception):

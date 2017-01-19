@@ -10,7 +10,7 @@ from nltk.util import ngrams as ng
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.externals import joblib
 from pathlib import Path
-from keras.models import model_from_json
+# from keras.models import model_from_json
 from configparser import ConfigParser
 
 

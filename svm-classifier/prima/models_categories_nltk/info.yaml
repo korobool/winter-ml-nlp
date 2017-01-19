@@ -7,7 +7,7 @@ letters: false
 methods:
 - SVC
 - MultinomialNB
-model_id: b2c5071a-dcb9-4dc5-94b8-0434f79fef89
+model_id: c21312fe-05e2-4828-96bc-7a4fa2a85cd6
 ngrams: false
 symbolic_ngrams: null
 tokenization: nltk
