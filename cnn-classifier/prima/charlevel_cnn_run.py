@@ -83,7 +83,7 @@ class CLNet():
 
         model = Sequential()
 
-        # Alphabet x 1014
+        # Alphabet x 350
         model.add(Convolution2D(256, len(self._characters), 3, input_shape=(1, len(self._characters), 350)))
         model.add(Activation('relu'))
         model.add(MaxPooling2D(pool_size=(1, 3)))
@@ -91,7 +91,7 @@ class CLNet():
         # 256 x 1 X  336
         model.add(Convolution2D(256, 1, 3))
         model.add(Activation('relu'))
-        model.add(MaxPooling2D(pool_size=(1, 3))) # MaxPooling missed in recommendations crepe.py
+        model.add(MaxPooling2D(pool_size=(1, 3)))
 
         # 110 x 256
         model.add(Convolution2D(256, 1, 3))
@@ -125,14 +125,9 @@ class CLNet():
 
         # 1024
         model.add(Dense(self.max_num, input_dim=1024))
-        # The loss (keras has no LogSoftmax so we have to improvise, don't forget calculate logarithms on test!)
         model.add(Activation('sigmoid'))
 
         opt = RMSprop()
-        # opt = Adam(lr=0.0005, beta_1=0.9, beta_2=0.999, epsilon=1e-08)
-        # opt = Adam()
-        # opt = SGD(lr=0.0001, momentum=0.9, decay=0.0005, nesterov=True)
-
         model.compile(optimizer=opt, loss='binary_crossentropy', metrics=["accuracy"])
         checkpointer = ModelCheckpoint(filepath="./weights_tmp.h5", verbose=1, save_best_only=False)
         history = LossHistory()
@@ -189,11 +184,6 @@ class CLNet():
         newshape = (1, 1, nb_1, nb_2)
         frame_list = np.reshape(frame, newshape)
         X = np.append(X, frame_list, axis=0)
-        # nb_samples = X.shape[0]
-        # nb_features1 = X.shape[1]
-        # nb_features2 = X.shape[2]
-        # newshape = (nb_samples, 1, nb_features1, nb_features2)
-        # X = np.reshape(X, newshape)
         prediction = self._model.predict(X,
                                          batch_size=self._batch,
                                          verbose=0)
@@ -215,13 +205,6 @@ class CLNet():
         test_seq = _get_train_data(test_data_path)
         X_test = test_seq[0]
         y_test = test_seq[1]
-
-        # nb_samples = X_test.shape[0]
-        # nb_features1 = X_test.shape[1]
-        # nb_features2 = X_test.shape[2]
-        # newshape = (nb_samples, 1, nb_features1, nb_features2)
-        # X_test = np.reshape(X_test, newshape)
-
         prediction = self._model.predict(X_test, batch_size=self._batch, verbose=0)
         # print('Prediction: ', prediction)
         label_test_all = prediction.tolist()
